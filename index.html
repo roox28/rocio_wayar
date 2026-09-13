@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rocío Wayar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand pt-3" href="index.html">
+                <img src="img/wayar/wayar-logo.svg" alt="wayar-logo" style="width:12.5rem; height:auto;">
+            </a>
+            <ul class="nav nav-underline d-flex align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobremi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Bienvenido a mi Portfolio</h1>
+    </header>
+
+    <main>
+        <section class="texto-perfil">
+            <div>
+                <h2 class="h2-inicio">Hola, soy Rocío</h2>
+                <p>
+                    Soy una diseñadora gráfica en formación, enfocada en el desarrollo de packaging y universos
+                    visuales.
+                </p>
+                <p class="texto-intro">
+                    Me interesa crear piezas que combinen creatividad y funcionalidad, capaces de comunicar,
+                    transmitir valores y construir identidad. Disfruto de pensar proyectos donde el concepto,
+                    el detalle y la coherencia visual aporten sentido a cada propuesta.
+                </p>
+            </div>
+            <img class="personales-intro" src="img/personales/20260331_160853.jpg" alt="foto de perfil">
+        </section>
+
+        <img class="separador" src="img/wayar/divisor-linea-lila.svg" alt="">
+
+        <article class="perfil">
+            <h2 class="h2-inicio-2">Mis proyectos</h2>
+            <p>Una vista previa de los que son mis proyectos favoritos de la facultad.</p>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/proyectos/inicio/Display 3D.jpg" class="d-block w-100" alt="proyecto 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/proyectos/inicio/Identidad visual.jpg" class="d-block w-100" alt="proyecto 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/proyectos/inicio/Modelado 3D.jpg" class="d-block w-100" alt="proyecto 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/proyectos/inicio/Tipografia.jpg" class="d-block w-100" alt="proyecto 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+            <p class="acento-lila">
+                Podés verlos en detalle en la sección <a href="proyectos.html">"Proyectos".</a>
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <img class="separador-doble" src="img/wayar/banda-doble.svg" alt="banda-doble">
+        <section>
+            <div class="footer-section">
+                <a href="index.html">
+                    <img src="img/wayar/wayar-logo.svg" alt="wayar-logo">
+                </a>
+                <div class="elementos-footer">
+                    <div>
+                        <a class="titulo-footer" href="proyectos.html">Proyectos</a>
+                        <ul class="texto-footer2">
+                            <li>
+                                <button type="button" class="btn btn-link btn-footer" data-bs-toggle="modal"
+                                    data-bs-target="#modalDisplay">
+                                    Display 3D
+                                </button>
+                                <div class="modal fade proyectos-footer" id="modalDisplay" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalDisplayLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title fs-5" id="modalDisplayLabel">Creación y modelado
+                                                    de display
+                                                </h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Este proyecto fue desarrollado para la materia de <span
+                                                        class="acento-amarillo">Diseño 3D</span> a partir del diseño
+                                                    de un display para un producto elegido; en mi caso, un labial. Tomé
+                                                    como punto
+                                                    de partida el <span class="acento-amarillo">universo visual</span>
+                                                    de la marca,
+                                                    inspirado en una estética fluffy,
+                                                    lúdica y suave, junto con uno de sus elementos más característicos:
+                                                    el osito.
+                                                </p>
+                                                <p>
+                                                    Más que diseñar un simple stand exhibidor, busqué construir una
+                                                    <span class="acento-amarillo">experiencia
+                                                        inmersiva</span> alrededor del producto. El display fue pensado
+                                                    con acceso
+                                                    desde varios
+                                                    lados para invitar a recorrerlo e interactuar con distintos puntos
+                                                    del espacio.
+                                                </p>
+                                                <p>
+                                                    En el centro desarrollé un exhibidor cuya forma surge de la anatomía
+                                                    del propio
+                                                    labial, funcionando como <span class="acento-amarillo">núcleo del
+                                                        recorrido.</span> A su alrededor incorporé distintas instancias
+                                                    vinculadas a
+                                                    la marca: una pared de espejos con forma de
+                                                    ositos asociados a cada tono disponible, exhibidores organizados
+                                                    según la paleta
+                                                    cromática del producto, un sector pensado para contenido en redes
+                                                    sociales con
+                                                    espejo y hashtag de marca, y una instalación exterior con réplicas
+                                                    de gran
+                                                    escala para potenciar la experiencia y generar un punto fotográfico.
+                                                </p>
+                                                <p>
+                                                    La propuesta busca combinar <span
+                                                        class="acento-amarillo">exhibición,
+                                                        interacción y branding,</span> llevando la identidad de la marca
+                                                    al espacio
+                                                    tridimensional.
+                                                </p>
+                                                <p>
+                                                    El proyecto fue modelado íntegramente en <span
+                                                        class="acento-amarillo">Blender</span> desde cero, trabajando
+                                                    con
+                                                    formas base para la construcción del volumen, materiales para
+                                                    recrear el efecto
+                                                    translúcido del envase, y sistemas de partículas para generar
+                                                    texturas como el pelaje del oso y el aplicador del labial.
+                                                </p>
+                                                <div id="carouselDisplay" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img src="img/proyectos/3D-1.png" class="d-block w-100"
+                                                                alt="imagen 1">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/3D-2.png" class="d-block w-100"
+                                                                alt="imagen 2">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/3D-3.png" class="d-block w-100"
+                                                                alt="imagen 3">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/3D-4.png" class="d-block w-100"
+                                                                alt="imagen 4">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselDisplay" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Anterior</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselDisplay" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Siguiente</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="proyectos.html" class="btn btn-secondary">Ver más
+                                                    proyectos</a>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link btn-footer" data-bs-toggle="modal"
+                                    data-bs-target="#modalIdentidad">
+                                    Identidad visual
+                                </button>
+                                <div class="modal fade proyectos-footer" id="modalIdentidad" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalIdentidadLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title fs-5" id="modalIdentidadLabel">Diseño de
+                                                    identidad visual y
+                                                    packaging</h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Este proyecto consistió en el desarrollo de identidad y packaging
+                                                    para una línea
+                                                    de vinos orientada a un público joven adulto, para la materia de
+                                                    <span class="acento-amarillo">Practicas profesionalizantes,</span>
+                                                    buscando
+                                                    alejarme de los códigos tradicionales de la categoría para proponer
+                                                    una propuesta
+                                                    más <span class="acento-amarillo">fresca, cercana y
+                                                        contemporánea.</span>
+                                                </p>
+                                                <p>
+                                                    La construcción visual parte de una paleta cromática <span
+                                                        class="acento-amarillo">vibrante</span>, donde cada
+                                                    conjunto de colores identifica a uno de los tres varietales,
+                                                    aportando
+                                                    <span class="acento-amarillo">diferenciación</span> dentro de la
+                                                    línea pero
+                                                    manteniendo una identidad de sistema coherente.
+                                                </p>
+                                                <p>
+                                                    Para el capuchón desarrollé una <span class="acento-amarillo">trama
+                                                        ilustrada</span> con elementos representativos de
+                                                    cada vino, pensada como un detalle de descubrimiento para el
+                                                    consumidor: un
+                                                    recurso que se revela al tomar la botella en la mano y suma una capa
+                                                    de
+                                                    <span class="acento-amarillo">experiencia</span> al objeto.
+                                                </p>
+                                                <p>
+                                                    La elección del formato de la botella, junto con el uso del color,
+                                                    buscó
+                                                    reforzar ese posicionamiento más descontracturado y actual,
+                                                    conectando con un
+                                                    público joven sin perder la percepción de calidad del producto.
+                                                </p>
+                                                <p>
+                                                    El proyecto explora cómo el packaging puede construir universo de
+                                                    marca,
+                                                    comunicar personalidad y <span class="acento-amarillo">generar
+                                                        vínculos</span> desde pequeños gestos visuales y materiales.
+                                                </p>
+                                                <div id="carouselIdentidad" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img src="img/proyectos/Practicas-1.jpg"
+                                                                class="d-block w-100" alt="imagen 1">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/Practicas-2.jpg"
+                                                                class="d-block w-100" alt="imagen 2">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/Practicas-3.jpg"
+                                                                class="d-block w-100" alt="imagen 3">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/Practicas-4.jpg"
+                                                                class="d-block w-100" alt="imagen 4">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/Practicas-5.jpg"
+                                                                class="d-block w-100" alt="imagen 4">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselIdentidad" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Anterior</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselIdentidad" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Siguiente</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="proyectos.html" class="btn btn-secondary">Ver más
+                                                    proyectos</a>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link btn-footer" data-bs-toggle="modal"
+                                    data-bs-target="#modalFolletos">
+                                    Diseño editorial
+                                </button>
+                                <div class="modal fade proyectos-footer" id="modalFolletos" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalFolletosLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title fs-5" id="modalFolletosLabel">Folletos inspirados
+                                                    en Tim
+                                                    Burton</h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Este proyecto consistió en el diseño de una serie de folletos
+                                                    editoriales inspirados en la estética de Tim Burton, reinterpretando
+                                                    su universo visual dentro de un sistema gráfico editorial para la
+                                                    materia <span class="acento-amarillo">Tipografía.</span>
+                                                </p>
+                                                <p>
+                                                    La propuesta buscó <span class="acento-amarillo">trasladar</span> su
+                                                    imaginario oscuro, fantástico y expresivo a piezas impresas,
+                                                    manteniendo esa atmósfera característica pero <span
+                                                        class="acento-amarillo">adaptándola</span>
+                                                    a una lectura dinámica y atractiva. Para eso trabajé con jerarquías
+                                                    de información, distintos niveles de lectura y composiciones
+                                                    variables que aportaran <span class="acento-amarillo">ritmo y
+                                                        recorrido visual.</span>
+                                                </p>
+                                                <p>
+                                                    Incorporé imágenes vectoriales intervenidas y retocadas por mí para
+                                                    reforzar el <span class="acento-amarillo">lenguaje gráfico</span> de
+                                                    las piezas y construir una identidad coherente con cada película.
+                                                </p>
+                                                <p>
+                                                    Desarrollé <span class="acento-amarillo">dos formatos</span> para
+                                                    generar variedad dentro del sistema editorial: un
+                                                    folleto tradicional de múltiples cuerpos y un formato tipo ventana,
+                                                    explorando distintas formas de desplegar contenido e <span
+                                                        class="acento-amarillo">interactuar con la lectura.</span>
+                                                </p>
+                                                <p>
+                                                    Las piezas están basadas en The Nightmare Before Christmas y
+                                                    Frankenweenie,
+                                                    donde en cada folleto se aborda la historia de la película desde una
+                                                    <span class="acento-amarillo">propuesta
+                                                        editorial</span> que busca combinar narrativa, experimentación
+                                                    formal y construcción de atmósfera.
+                                                </p>
+                                                <div id="carouselFolletos" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img src="img/proyectos/Tipografia-1.jpg"
+                                                                class="d-block w-100" alt="imagen 1">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/Tipografia-2.jpg"
+                                                                class="d-block w-100" alt="imagen 2">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselFolletos" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Anterior</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselFolletos" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Siguiente</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="proyectos.html" class="btn btn-secondary">Ver más
+                                                    proyectos</a>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link btn-footer" data-bs-toggle="modal"
+                                    data-bs-target="#modalLabial">
+                                    Modelado 3D
+                                </button>
+                                <div class="modal fade proyectos-footer" id="modalLabial" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabialLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title fs-5" id="modalLabialLabel">Modelado de producto
+                                                </h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Este proyecto surge a partir del modelado tridimensional de un
+                                                    labial realizado
+                                                    para la materia de <span class="acento-amarillo">Diseño 3D</span>, y
+                                                    se expandió
+                                                    en una serie de composiciones
+                                                    orientadas a explorar el lenguaje del <span
+                                                        class="acento-amarillo">fotoproducto</span> desde una mirada
+                                                    conceptual.
+                                                </p>
+                                                <p>
+                                                    A partir del <span class="acento-amarillo">objeto modelado</span>
+                                                    desarrollé
+                                                    distintas propuestas visuales y
+                                                    compositivas, buscando construir escenas que funcionaran como <span
+                                                        class="acento-amarillo">renders
+                                                        publicitarios.</span> La exploración se centró en generar
+                                                    composiciones con
+                                                    distintos
+                                                    componentes, desde los ositos característicos de la marca hasta
+                                                    repeticiones del
+                                                    propio producto; trabajando ritmo, equilibrio y jerarquía visual a
+                                                    partir de
+                                                    <span class="acento-amarillo">principios de fotografía</span>
+                                                    aplicados a la
+                                                    construcción de escena.
+                                                </p>
+                                                <p>
+                                                    También incorporé <span class="acento-amarillo">elementos
+                                                        modelados,</span> como
+                                                    manchas y formas orgánicas, para
+                                                    sumar contraste, profundidad y dinamismo a las composiciones,
+                                                    reforzando el
+                                                    carácter expresivo de las imágenes.
+                                                </p>
+                                                <p>
+                                                    La propuesta mantiene una paleta cálida coherente con la estética
+                                                    del producto y
+                                                    de la marca, buscando un <span class="acento-amarillo">universo
+                                                        visual
+                                                        unificado</span> entre modelado, dirección de
+                                                    arte y composición.
+                                                </p>
+                                                <p>
+                                                    El proyecto me permitió explorar no solo el modelado en <span
+                                                        class="acento-amarillo">Blender,</span> sino también la
+                                                    relación entre objeto, iluminación, puesta en escena e imagen como
+                                                    herramienta
+                                                    de comunicación visual.
+                                                </p>
+                                                <div id="carouselLabial" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img src="img/proyectos/3D-labial-1.png"
+                                                                class="d-block w-100" alt="imagen 1">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/3D-labial-2.png"
+                                                                class="d-block w-100" alt="imagen 2">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/3D-labial-3.png"
+                                                                class="d-block w-100" alt="imagen 3">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/3D-labial-4.png"
+                                                                class="d-block w-100" alt="imagen 4">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselLabial" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Anterior</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselLabial" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Siguiente</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="proyectos.html" class="btn btn-secondary">Ver más
+                                                    proyectos</a>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link btn-footer" data-bs-toggle="modal"
+                                    data-bs-target="#modalFlyers">
+                                    Sistema de afiches
+                                </button>
+                                <div class="modal fade proyectos-footer" id="modalFlyers" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalFlyersLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title fs-5" id="modalFlyersLabel">Sistema de afiches
+                                                </h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Este proyecto reúne una serie de tres afiches desarrollados para
+                                                    ficticias
+                                                    exposiciones de obras teatrales, realizados en el marco de la
+                                                    materia de
+                                                    <span class="acento-amarillo">Recursos Expresivos.</span>
+                                                </p>
+                                                <p>
+                                                    El proceso comenzó con una instancia de <span
+                                                        class="acento-amarillo">análisis</span> de trailers, sinopsis y
+                                                    climas
+                                                    narrativos de cada obra, buscando comprender qué emociones,
+                                                    tensiones y
+                                                    sensaciones <span class="acento-amarillo">transmitía</span> cada una
+                                                    para
+                                                    traducirlas visualmente.
+                                                </p>
+                                                <p>
+                                                    A partir de esa lectura opté por una búsqueda <span
+                                                        class="acento-amarillo">gestual y expresiva,</span> trabajando
+                                                    con pintura y distintos materiales para generar manchas abstractas,
+                                                    texturas y
+                                                    composiciones espontáneas que funcionaran como <span
+                                                        class="acento-amarillo">representación emocional</span> de cada
+                                                    obra, más que como ilustraciones literales.
+                                                </p>
+                                                <p>
+                                                    Luego estas exploraciones fueron intervenidas digitalmente en <span
+                                                        class="acento-amarillo">Adobe Photoshop y
+                                                        Adobe Illustrator</span> para construir los afiches finales,
+                                                    integrando
+                                                    imagen,
+                                                    tipografía y composición dentro de una propuesta gráfica coherente.
+                                                </p>
+                                                <p>
+                                                    La elección de una paleta en blanco y negro respondió a la búsqueda
+                                                    de un
+                                                    <span class="acento-amarillo">contraste fuerte y directo,</span>
+                                                    capaz de
+                                                    potenciar la carga dramática de las piezas
+                                                    y reforzar la intensidad expresiva de cada afiche. Esa decisión,
+                                                    junto con una
+                                                    tipografía de impacto y una disposición compositiva acorde a cada
+                                                    concepto,
+                                                    terminó de construir la <span class="acento-amarillo">identidad
+                                                        visual</span> de
+                                                    la serie.
+                                                </p>
+                                                <p>
+                                                    Este proyecto <span class="acento-amarillo">explora</span> cómo lo
+                                                    gestual, la
+                                                    textura y los recursos digitales
+                                                    pueden combinarse para construir piezas capaces de comunicar
+                                                    conceptos y
+                                                    atmósferas desde una <span class="acento-amarillo">búsqueda
+                                                        experimental.</span>
+                                                </p>
+                                                <div id="carouselFlyers" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img src="img/proyectos/RecursosExpresivos-1.jpg"
+                                                                class="d-block w-100" alt="imagen 1">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/RecursosExpresivos-2.jpg"
+                                                                class="d-block w-100" alt="imagen 2">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="img/proyectos/RecursosExpresivos-3.jpg"
+                                                                class="d-block w-100" alt="imagen 3">
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselFlyers" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Anterior</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselFlyers" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Siguiente</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="proyectos.html" class="btn btn-secondary">Ver más
+                                                    proyectos</a>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-link btn-footer" data-bs-toggle="modal"
+                                    data-bs-target="#modalFotolibro">
+                                    Fotolibro
+                                </button>
+                                <div class="modal fade proyectos-footer" id="modalFotolibro" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalFotolibroLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title fs-5" id="modalFotolibroLabel">Fotolibro
+                                                    experimental</h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Este proyecto fue desarrollado para la materia de <span
+                                                        class="acento-amarillo">Recursos Expresivos</span> a partir
+                                                    de la realización de un <span class="acento-amarillo">fotolibro en
+                                                        formato
+                                                        flipbook,</span> combinando trabajo manual
+                                                    e intervención digital.
+                                                </p>
+                                                <p>
+                                                    Bajo el concepto de <span class="acento-amarillo">Juego,</span> la
+                                                    propuesta
+                                                    toma como punto de partida un gif de 14
+                                                    segundos de mi perro Odie saltando, una acción simple pero
+                                                    profundamente ligada
+                                                    a su energía y a un recuerdo afectivo muy presente en mi infancia.
+                                                </p>
+                                                <p>
+                                                    A partir de ese registro trabajé <span
+                                                        class="acento-amarillo">cuadro por
+                                                        cuadro,</span> editando y expandiendo la
+                                                    secuencia original hasta construir cerca de 50 imágenes, buscando
+                                                    <span class="acento-amarillo">extender el
+                                                        movimiento</span> y potenciar la lógica narrativa propia del
+                                                    flipbook.
+                                                </p>
+                                                <p>
+                                                    Sobre esa base incorporé líneas, trazos e <span
+                                                        class="acento-amarillo">intervenciones gráficas</span> que
+                                                    acompañan
+                                                    la acción, refuerzan la interacción y <span
+                                                        class="acento-amarillo">amplifican
+                                                        el concepto lúdico</span> del
+                                                    proyecto.
+                                                </p>
+                                                <p>
+                                                    Más allá del ejercicio experimental sobre secuencia, imagen y
+                                                    movimiento, el
+                                                    proyecto funciona también como un <span
+                                                        class="acento-amarillo">homenaje
+                                                        personal:</span> una forma de recordar a
+                                                    Odie a través de aquello que mejor lo representaba, el juego. El
+                                                    libro propone
+                                                    así un cruce entre exploración gráfica, memoria y afecto.
+                                                </p>
+                                                <iframe width="560" height="315"
+                                                    src="https://www.youtube.com/embed/8jbjuOIHhKM?si=i6fFyPKISJLkwdJc"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="proyectos.html" class="btn btn-secondary">Ver más
+                                                    proyectos</a>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a class="titulo-footer" href="sobremi.html">Sobre mi</a>
+                        <ul class="texto-footer3">
+                            <li>
+                                <a href="sobremi.html#biografia">Biografía</a>
+                            </li>
+                            <li>
+                                <a href="sobremi.html#experienciaAcademica">Experiencia académica</a>
+
+                            </li>
+                            <li>
+                                <a href="sobremi.html#habilidadesTecnicas">Habilidades técnicas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a class="titulo-footer" href="contacto.html">Contacto</a>
+                        <ul class="texto-footer3">
+                            <li>
+                                <a href="https://www.instagram.com/girl_inbluee__" target="_blank"
+                                    rel="noopener noreferrer">Behance
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/91124686217" target="_blank" rel="noopener noreferrer">Whatsapp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:girrl.inbluee@gmail.com" target="_blank"
+                                    rel="noopener noreferrer">E-mail
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
