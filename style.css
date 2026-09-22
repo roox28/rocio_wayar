@@ -4,15 +4,13 @@
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'Sharp Grotesk';
-    src: url('tipografia/SharpGrotesk-Medium25.otf') format('opentype');
-}
 
 body {
     background-color: #222222;
     color: #fefdf1;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gravita-HUM-Variable', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,22 +56,23 @@ ul {
 }
 
 h1 {
-    font-family: 'Sharp Grotesk', 'Montserrat', sans-serif;
-    font-size: 3.75rem;
+    font-family: 'Gravita-HUM-Variable', sans-serif;
+    font-style: italic;
+    font-size: 5.20rem;
     color: #cad83b;
-    font-weight: 600;
+    font-weight: 800;
     position: absolute;
-    text-align: center;
     white-space: nowrap;
-    top: 10rem;
+    top: 8rem;
     left: 50%;
     transform: translateX(-50%);
 }
 
 h2 {
-    font-family: 'Sharp Grotesk', 'Montserrat', sans-serif;
+    font-family: 'Gravita-HUM-Variable', sans-serif;
+    font-weight: 800;
     color: #a88aee;
-    font-size: 2.8125rem;
+    font-size: 3.75rem;
     margin: 2.5rem 0 1.875rem 0;
     text-align: center;
 }
@@ -99,7 +98,7 @@ h2 {
 }
 
 h3 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.25rem;
 }
 
@@ -119,7 +118,7 @@ h3 {
 
 h4 {
     color: #cad83b;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .texto-intro {
@@ -132,14 +131,18 @@ main,
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1.25rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
-.texto-perfil div {
-    max-width: 34.375rem;
+.texto-perfil-inicio div {
+    max-width: 37rem;
 }
 
-.texto-perfil {
+.texto-perfil p{
+    max-width: 34.5rem;
+}
+
+.texto-perfil-inicio, .texto-perfil {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,6 +167,10 @@ main,
 .proyectos {
     gap: 3.125rem;
     padding: 3.125rem 0 3.75rem 0;
+}
+
+section#proyectos.texto-h2{
+    margin-top: 0;
 }
 
 .proyectos img {
@@ -242,15 +249,16 @@ main,
     grid-template-columns: repeat(3, 1fr);
 }
 
+.habilidades-barra {
+    gap: 2.5rem;
+    padding: 2.4rem 0;
+}
+
 .habilidades-barra2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.habilidades-barra,
-.habilidades-barra2 {
-    gap: 2.5rem;
-    padding: 0.9375rem 0 1.5625rem 0;
+    gap:2.5rem;
+    padding-bottom: 1rem;
 }
 
 .habilidades-barra img,
@@ -272,7 +280,7 @@ main,
 /* CONTACTO */
 .contacto {
     gap: 5rem;
-    padding: 2.5rem 0;
+    margin: 3rem 0 2.5rem;
 }
 
 .contacto li {
@@ -281,6 +289,7 @@ main,
 
 .contacto img {
     width: 11.25rem;
+    padding-top: 1.5rem;
 }
 
 /* FOOTER */
@@ -291,9 +300,9 @@ main,
 }
 
 .footer-section img {
-    width: 21.875rem;
+    width: 11.5rem;
     height: auto;
-    padding: 1.875rem 0 3.125rem 7.5rem;
+    margin: 1.875rem 0 3.125rem 9rem;
 }
 
 .elementos-footer {
@@ -319,6 +328,15 @@ main,
 .texto-footer2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.texto-footer3 li {
+    gap: 1rem;
+}
+
+footer li a, footer button.btn.btn-link.btn-footer{
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .btn-footer{
