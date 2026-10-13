@@ -56,23 +56,22 @@ ul {
 }
 
 h1 {
-    font-family: 'Gravita-HUM-Variable', sans-serif;
-    font-style: italic;
-    font-size: 5.20rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 4rem;
     color: #cad83b;
-    font-weight: 800;
+    font-weight: 750;
     position: absolute;
     white-space: nowrap;
-    top: 8rem;
+    top: 9.5rem;
     left: 50%;
     transform: translateX(-50%);
 }
 
 h2 {
-    font-family: 'Gravita-HUM-Variable', sans-serif;
-    font-weight: 800;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 750;
     color: #a88aee;
-    font-size: 3.75rem;
+    font-size: 3rem;
     margin: 2.5rem 0 1.875rem 0;
     text-align: center;
 }
@@ -319,9 +318,10 @@ section#proyectos.texto-h2{
 }
 
 .titulo-footer {
+    font-family: "Montserrat Alternates", sans-serif;
     color: #a88aee;
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 600;
     padding-bottom: 0.625rem;
 }
 
